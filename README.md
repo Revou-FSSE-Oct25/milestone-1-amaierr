@@ -11,10 +11,10 @@ In this website, there will have 4 section :
     In this section I will tell you more information about me such :
     - My background
     - My university
-    - What have I done
+    - What have I done before
 
 3. Section 3 : Project  
-    In this section, I will display overview of projects that I've built
+    In this section, I will display overview of projects that I've built.
 
 4. Section 4 : Contact Me  
     In this section there will be form that you can fill to give me contact about yourself, so I can contact you further.
@@ -28,3 +28,5 @@ There are following feature that I use for this website :
 
 ## Technologies Used
 In this website I mostly used HTML, but I use a little bit of styling within the HTML, but not use CSS file differently.
+
+P.S. Click [here](https://revou-fsse-oct25.github.io/milestone-1-amaierr/) to go to this website :)
