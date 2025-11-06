@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body style="padding-right: 6rem; padding-left: 6rem; text-align: center;">
+
+    <header style="padding-right: 6rem; padding-left: 6rem; text-align: center; background-color: #63799F;">
+        <nav style="display: flex; justify-content: space-between;">
+            <div style="color: #fff; font-size: x-large;">
+                <p>William Manuel Xavier</p>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <ul style="list-style: none; display: flex; flex-wrap: wrap; gap: 20px; padding: 0;">
+                    <li>
+                        <a href="#home" aria-current="page" style="text-decoration: none; font-size: 18px; color: #fff;">Home</a>
+                    </li>
+                    <li>
+                        <a href="#abouMe" aria-current="page" style="text-decoration: none; font-size: 18px; color: #fff;">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#project" aria-current="page" style="text-decoration: none; font-size: 18px; color: #fff;">Project</a>
+                    </li>
+                    <li>
+                        <a href="#contactMe" aria-current="page" style="text-decoration: none; font-size: 18px; color: #fff;">Contact me!</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" style=" margin-top: 40px;">
+            <div style="display: flex; justify-content: space-around;">
+                <div>
+                    <img src="assets/william.jpg" height="200" width="200" style="object-fit: cover; border-radius: 50%;" alt="William Manuel">
+                </div>
+                <div style="display: flex; justify-content: center; align-items: baseline; flex-direction: column; ">
+                    <h2 style="margin-top: 20px; color: #4872A6;">Hi, I'm William Manuel</h2>
+                    <p style="max-width: 700px; margin: 10px auto; text-align: left;">
+                        I'm a Computer Science major with a passion for coding, actively seeking a full-stack developer position to apply my skills in front-end and back-end technologies.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <hr style="margin-top: 40px; margin-bottom: 40px;">
+
+        <section id="abouMe">
+            <h1 style="color: #4872A6;">About Me</h1>
+            <p>
+                Hello, my name is William, I'm from Computer Science major from Bina Nusantara University.
+                I've done my study this year and I have done 1 year Internship in Sofco Graha.
+            </p>
+            <p>In my intership I've learn angular for front-end development and springboot for back-end development</p>
+        </section>
+
+        <hr style="margin-top: 40px; margin-bottom: 40px;">
+
+        <section id="project">
+            <h1 style="color: #4872A6;">My Project</h1>
+            <div style="display: flex; justify-content: space-around;">
+                <div>
+                    <img src="https://assets.skyfilabs.com/images/blog/good-computer-science-projects-for-beginners.webp" height="200" width="200" style="object-fit: cover; border-radius: 50px;" alt="Project 1">
+                    <h2 style="margin-top: 20px; color: #4872A6;">Project 1</h2>
+                    <p style="max-width: 700px; margin: 10px auto;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS-Xie5-1O_qCzjRybdhXAqIt6m7u2Mrojww&s" height="200" width="200" style="object-fit: cover; border-radius: 50px;" alt="Project 2">
+                    <h2 style="margin-top: 20px; color: #4872A6;">Project 2</h2>
+                    <p style="max-width: 700px; margin: 10px auto;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://assets.skyfilabs.com/images/blog/be-projects-for-cse.webp" height="200" width="200" style="object-fit: cover; border-radius: 50px;" alt="Project 3">
+                    <h2 style="margin-top: 20px; color: #4872A6;">Project 3</h2>
+                    <p style="max-width: 700px; margin: 10px auto;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <br><br><br><br><br>
+
+        <section id="contactMe" style="margin-bottom: 40px;">
+            <form action="">
+                <fieldset style="margin: 0 auto; max-width: 900px; border-radius: 15px;">
+                    <legend style="color: #4872A6; text-align: center; "><h1>Contact Me</h1></legend>
+                    
+                    <br>
+                    <div style="margin-right: 25px; margin-left: 25px; text-align: left;">
+                        <label for="name">Contact Name</label><br>
+                        <input type="text" id="companyName" name="companyName" required placeholder="Enter Your Name" style="width: 850px; padding: 8px;">
+                    </div>
+
+                    <br>
+
+                    <div style="margin-right: 25px; margin-left: 25px; text-align: left;">
+                        <label for="email">Contact Email</label><br>
+                        <input type="email" id="hrEmail" name="hrEmail" required placeholder="Enter Your Email" style="width: 850px; padding: 8px;">
+                    </div>
+
+                    <br>
+                    
+                    <div style="margin-right: 25px; margin-left: 25px; text-align: left;">
+                        <label for="phoneNumber">Contact Phone Number</label><br>
+                        <input type="tel" id="hrNumber" name="hrNumber" required placeholder="Enter Your Phone Number" style="width: 850px; padding: 8px;">
+                    </div>
+
+                    <br>
+
+                    <div style="margin-right: 25px; margin-left: 25px; text-align: left;">
+                        <label for="message">Message</label><br>
+                        <textarea id="goals" name="goals" rows="4" placeholder="Describe what you want to achieve..." style="width: 856px; padding: 8px; height: 116px;"></textarea>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 20px;">
+                        <button type="submit" style="background: #4872A6; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+                          Submit Contact
+                        </button>
+                        <input type="reset" value="Reset Form" style="margin-left: 10px; background: #ddd; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer style="background: #27313D; color: #7689AB; text-align: center; padding: 20px;">
+        <a href="https://www.linkedin.com/in/williammx/" target="_blank">
+            <img src="https://img.icons8.com/color/48/000000/linkedin.png" height="24" width="24" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/amaierr" target="_blank">
+            <img src="https://img.icons8.com/color/48/000000/github.png" height="24" width="24" alt="GitHub">
+        </a>
+        <a href="https://instagram.com/" target="_blank">
+            <img src="https://img.icons8.com/color/48/000000/instagram.png" height="24" width="24" alt="Instagram">
+        </a>
+        <h4 style="margin-top: 5px;">© 2025 - William Manuel Xavier</h4>
+    </footer>
+</body>
+</html>

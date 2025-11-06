@@ -1,1 +1,30 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/KTVBmApB)
+# RevoU Student Portfolio
+Read This to know overall overview of the website.
+
+## Website overview
+This website is build to display my portfolio.  
+In this website, there will have 4 section :
+1. Section 1 : Home  
+    In this section there will displayed my photo and my brief introduction. 
+
+2. Section 2 : About Me  
+    In this section I will tell you more information about me such :
+    - My background
+    - My university
+    - What have I done
+
+3. Section 3 : Project  
+    In this section, I will display overview of projects that I've built
+
+4. Section 4 : Contact Me  
+    In this section there will be form that you can fill to give me contact about yourself, so I can contact you further.
+
+## Feature Implemented
+There are following feature that I use for this website : 
+- Absolute Link
+- Internal link
+- Form
+- Form reset
+
+## Technologies Used
+In this website I mostly used HTML, but I use a little bit of styling within the HTML, but not use CSS file differently.
