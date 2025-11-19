@@ -1,0 +1,21 @@
+<header class="pl-16 pr-16 bg-[#63799F] h-[5rem] content-center">
+        <nav class="flex justify-between">
+            <p class="content-center text-2xl text-white">
+                William Manuel Xavier
+            </p>
+            <ul class="flex justify-between gap-x-8 text-lg text-white">
+                <li>
+                    <a href="#home" aria-current="page">Home</a>
+                </li>
+                <li>
+                    <a href="#abouMe" aria-current="page">About Me</a>
+                </li>
+                <li>
+                    <a href="#project" aria-current="page">Project</a>
+                </li>
+                <li>
+                    <a href="#contactMe" aria-current="page">Contact me!</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
