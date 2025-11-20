@@ -3,43 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Home</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header class="bg-[#63799F] w-full h-[2rem] content-center">
-        <nav class="flex justify-end">
-            <p class="hidden content-center text-sm text-white">
+<body class="lg:mx-35">
+    <header class="bg-[#63799F] w-full h-[2rem] content-center lg:pl-16 lg:pr-16 lg:h-[5rem]">
+        <nav class="flex justify-end lg:justify-between">
+            <p class="hidden md:content-center lg:text-2xl lg:text-white lg:block">
                 William Manuel Xavier
             </p>
-            <ul class="flex justify-between gap-x-3 text-[11px] pr-3 text-white">
+            <ul class="flex justify-between gap-x-3 text-[11px] pr-3 text-white lg:gap-x-8 lg:text-lg">
                 <li>
-                    <a href="#home" aria-current="page">Home</a>
+                    <a href="index.html" aria-current="page">Home</a>
                 </li>
                 <li>
-                    <a href="#abouMe" aria-current="page">About Me</a>
+                    <a href="pages/aboutMe.html" aria-current="page">About Me</a>
                 </li>
                 <li>
-                    <a href="#project" aria-current="page">Project</a>
+                    <a href="pages/project.html" aria-current="page">Project</a>
                 </li>
                 <li>
-                    <a href="#contactMe" aria-current="page">Contact me!</a>
+                    <a href="pages/contactMe.html" aria-current="page">Contact me!</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="home" class="mt-5">
-            <div class="flex justify-around">
-                <img src="assets/william.jpg"
-                        class="w-[5em] h-[5em] rounded-[50%] m-3 object-cover"
-                        alt="William Manuel">
-                <div class="content-center flex-col text-xs max-w-3/5 m-3">
-                    <h2 class="text-[#4872A6] font-semibold">Hi, I'm William Manuel</h2>
-                    <p>
+            <div class="md:flex md:justify-around md:items-center justify-items-center">`
+                <img src="assets/willim.jpg"
+                    class="rounded-[50%] m-3 object-cover size-[7em] md:size-[15em]"
+                    alt="william">
+                <div class="justify-items-center size-3/5 flex-col m-3 text-sm
+                md:text-lg md:justify-items-start">
+                    <h2 class="text-[#4872A6] font-bold mb-2">Hi, I'm William Manuel</h2>
+                    <p class="mb-3 text-center md:text-left">
                         I'm a Computer Science major with a passion for coding, actively seeking a full-stack developer position to apply my skills in front-end and back-end technologies.
                     </p>
+                    <p class="mb-1 font-semibold">
+                        Connect with me via :
+                    </p>
+                    <div class="flex justify-center gap-x-1 md:justify-start md:gap-x-3">
+                        <a href="https://www.linkedin.com/in/williammx/" class="size-1/8" target="_blank">
+                            <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn">
+                        </a>
+                        <a href="https://github.com/amaierr" class="size-1/8" target="_blank">
+                            <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub">
+                        </a>
+                        <a href="https://instagram.com/" class="size-1/8" target="_blank">
+                            <img src="https://img.icons8.com/color/48/000000/instagram.png" alt="Instagram">
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

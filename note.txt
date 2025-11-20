@@ -19,3 +19,33 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section id="home" class="mt-5">
+            <div class="flex justify-around">
+                <img src="assets/willim.jpg"
+                    class="w-[5em] h-[5em] rounded-[50%] m-3 object-cover"
+                    alt="william">
+                <div class="content-center flex-col text-xs max-w-3/5 m-3">
+                    <h2 class="text-[#4872A6] font-bold mb-2">Hi, I'm William Manuel</h2>
+                    <p class="mb-3">
+                        I'm a Computer Science major with a passion for coding, actively seeking a full-stack developer position to apply my skills in front-end and back-end technologies.
+                    </p>
+                    <p class="mb-1 font-semibold">
+                        Connect with me via :
+                    </p>
+                    <div class="flex gap-x-1">
+                        <a href="https://www.linkedin.com/in/williammx/" class="size-1/8" target="_blank">
+                            <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn">
+                        </a>
+                        <a href="https://github.com/amaierr" class="size-1/8" target="_blank">
+                            <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub">
+                        </a>
+                        <a href="https://instagram.com/" class="size-1/8" target="_blank">
+                            <img src="https://img.icons8.com/color/48/000000/instagram.png" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
