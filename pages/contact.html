@@ -29,38 +29,37 @@
         </nav>
     </header>
     <main>
-        <section id="contactMe" style="margin-bottom: 40px;">
+        <section id="contact">
+            <h1 class="text-[#4872A6] text-2xl text-center mt-8 mb-5 underline underline-offset-5 md:text-3xl lg:text-5xl">
+                Contact Me
+            </h1>
             <form action="">
-                <fieldset style="margin: 0 auto; max-width: 900px; border-radius: 15px;">
-                    <legend style="color: #4872A6; text-align: center; ">
-                        <h1>Contact Me</h1>
-                    </legend><br>
-
-                    <div style="margin-right: 25px; margin-left: 25px; text-align: left;">
+                <fieldset class="border border-gray-400 p-4 rounded-md m-8">
+                    <div class="mx-6 mb-3 lg:text-xl">
                         <label for="name">Contact Name</label><br>
-                        <input type="text" id="name" name="name" required placeholder="Enter Your Name" style="width: 850px; padding: 8px;">
-                    </div><br>
-
-                    <div style="margin-right: 25px; margin-left: 25px; text-align: left;">
-                        <label for="email">Contact Email</label><br>
-                        <input type="email" id="email" name="email" required placeholder="Enter Your Email" style="width: 850px; padding: 8px;">
-                    </div><br>
-                    
-                    <div style="margin-right: 25px; margin-left: 25px; text-align: left;">
-                        <label for="phoneNumber">Contact Phone Number</label><br>
-                        <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Enter Your Phone Number" style="width: 850px; padding: 8px;">
-                    </div><br>
-
-                    <div style="margin-right: 25px; margin-left: 25px; text-align: left;">
-                        <label for="message">Message</label><br>
-                        <textarea id="message" name="message" rows="4" placeholder="Write a message to send to me..." style="width: 856px; padding: 8px; height: 116px;"></textarea>
+                        <input class="w-full border p-1 rounded-md mt-1" type="text" id="name" name="name" required placeholder="Enter Your Name">
                     </div>
 
-                    <div style="text-align: center; margin-top: 20px;">
-                        <button type="submit" style="background: #4872A6; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+                    <div class="mx-6 mb-3 lg:text-xl">
+                        <label for="email">Contact Email</label><br>
+                        <input class="w-full border p-1 rounded-md mt-1" type="email" id="email" name="email" required placeholder="Enter Your Email">
+                    </div>
+                    
+                    <div class="mx-6 mb-3 lg:text-xl">
+                        <label for="phoneNumber">Contact Phone Number</label><br>
+                        <input class="w-full border p-1 rounded-md mt-1" type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Enter Your Phone Number">
+                    </div>
+
+                    <div class="mx-6 mb-3 lg:text-xl">
+                        <label for="message">Message</label><br>
+                        <textarea class="w-full border p-1 rounded-md mt-1" id="message" name="message" rows="4" placeholder="Write a message to send to me..."></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="bg-[#4872A6] text-white py-[10px] px-[20px] rounded-[4px] cursor-pointer">
                           Submit Contact
                         </button>
-                        <input type="reset" value="Reset Form" style="margin-left: 10px; background: #ddd; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+                        <input type="reset" value="Reset Form" class="bg-gray-200 py-[10px] px-[20px] rounded-[4px] cursor-pointer md:ml-[10px]">
                     </div>
                 </fieldset>
             </form>
