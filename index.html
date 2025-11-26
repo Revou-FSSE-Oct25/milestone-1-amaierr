@@ -7,14 +7,18 @@
     <title>Home</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="lg:mx-35">
-    <header class="bg-[#63799F] w-full h-[2rem] content-center lg:pl-16 lg:pr-16 lg:h-[4rem]">
+<body class="lg:mx-35 roboto-200">
+    <header class="bg-[#63799F] w-full h-[2rem] content-center lg:pl-16 lg:pr-16 lg:h-[4rem] ">
         <nav class="flex justify-end md:justify-between md:items-center">
             <p class="hidden md:content-center lg:text-2xl md:text-white md:block md:pl-3">
                 William Manuel Xavier
             </p>
-            <ul class="flex justify-between gap-x-3 text-[11px] pr-3 text-white lg:gap-x-8 lg:text-lg">
+            <ul class="flex justify-between gap-x-3 text-[12px] pr-3 text-white lg:gap-x-8 lg:text-lg">
                 <li>
                     <a class="hover:underline" href="index.html" aria-current="page">Home</a>
                 </li>
@@ -34,12 +38,13 @@
         <section id="home" class="mt-5">
             <div class="md:flex md:justify-around md:items-center justify-items-center">`
                 <img src="assets/william.jpg"
-                    class="rounded-[50%] m-3 object-cover size-[7em] md:size-[15em]"
+                    class="rounded-[50%] m-3 object-cover size-[9rem]
+                    md:size-[14rem]"
                     alt="william">
-                <div class="justify-items-center size-3/5 m-3 text-sm
+                <div class="bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtNXOAO_I1pnsj9aU09YqtTu_wCtdlyuCLCg&s)] bg-cover bg-center bg-no-repeat justify-items-center size-3/5 p-3 text-sm
                 md:text-lg md:justify-items-start">
-                    <h1 class="text-[#4872A6] font-bold mb-2">Hi, I'm William Manuel</h1>
-                    <p class="mb-3 text-center md:text-left">
+                    <h1 class="text-[#79feff] font-bold mb-2">Hi, I'm William Manuel</h1>
+                    <p class="mb-3 text-white text-center md:text-left">
                         I'm a Computer Science major with a passion for coding, actively seeking a full-stack developer position to apply my skills in front-end and back-end technologies.
                     </p>
                 </div>
